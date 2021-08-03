@@ -1,0 +1,6 @@
+.DS_Store
+MedNet.xcworkspace/
+Podfile.lock
+Pods/
+**/xcuserdata/*
+
