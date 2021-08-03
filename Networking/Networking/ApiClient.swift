@@ -23,31 +23,6 @@ public enum APIResult<Success, Failure> where Failure : CustomError {
     case failure(CustomError)
 }
 
-
-class RequestModel {
-    
-    // MARK: - Properties
-    var path: String {
-        return ""
-    }
-    var parameters: Parameters {
-        return [:]
-    }
-    var headers: [String: String] {
-        return [:]
-    }
-    var method: HTTPMethod {
-        return .get
-    }
-    var body: [String: Any?] {
-        return [:]
-    }
-    
-    var encoding: ParameterEncoding {
-        return method == .post ? JSONEncoding.default : URLEncoding.default
-    }
-}
-
 class APIClient {
     static var sharedInstace = APIClient()
     private let baseUrl = "https://reqres.in/api"

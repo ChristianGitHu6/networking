@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		355C3F4EA77A8E2DB99991E2 /* Pods_Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9683C52F5827D9851018DB9 /* Pods_Networking.framework */; };
+		9542494F26B932DD0031F59F /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9542494E26B932DD0031F59F /* RequestModel.swift */; };
 		955421BA26B71C2000E16BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955421B926B71C2000E16BDE /* AppDelegate.swift */; };
 		955421BC26B71C2000E16BDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955421BB26B71C2000E16BDE /* SceneDelegate.swift */; };
 		955421BE26B71C2000E16BDE /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955421BD26B71C2000E16BDE /* UsersViewController.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		2646E7B1DB38A88685EBD214 /* Pods-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Networking.debug.xcconfig"; path = "Target Support Files/Pods-Networking/Pods-Networking.debug.xcconfig"; sourceTree = "<group>"; };
+		9542494E26B932DD0031F59F /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
 		955421B626B71C2000E16BDE /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		955421B926B71C2000E16BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		955421BB26B71C2000E16BDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				955421D126B71C8800E16BDE /* CustomError.swift */,
 				955421E926B7D16200E16BDE /* User.swift */,
 				955421EC26B7D41C00E16BDE /* UsersPage.swift */,
+				9542494E26B932DD0031F59F /* RequestModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -152,7 +155,6 @@
 				2646E7B1DB38A88685EBD214 /* Pods-Networking.debug.xcconfig */,
 				B58BBE10ECF983B200A9EB4B /* Pods-Networking.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +280,7 @@
 				955421ED26B7D41C00E16BDE /* UsersPage.swift in Sources */,
 				955421EA26B7D16300E16BDE /* User.swift in Sources */,
 				955421F826B7E8D100E16BDE /* UIImageView.swift in Sources */,
+				9542494F26B932DD0031F59F /* RequestModel.swift in Sources */,
 				955421BA26B71C2000E16BDE /* AppDelegate.swift in Sources */,
 				955421BC26B71C2000E16BDE /* SceneDelegate.swift in Sources */,
 				955421CF26B71C5700E16BDE /* ApiClient.swift in Sources */,
